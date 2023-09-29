@@ -1,0 +1,32 @@
+.blue-text{
+    color: aqua;
+}
+
+/* ctrl+/ = toggle comment(s) */
+/* everything w/n the body should have a yellow background */
+body{
+    background-color: yellow;
+}
+
+/* everything in the 'css-class' class will have a light pink background */
+.css-class{
+    background-color: lightpink;
+}
+
+/* all h1 tags w/n the 'css-class' class will have a font size of 18px */
+.css-class{
+    font-size: 18px;
+}
+
+/* all p tags w/n 'css-class' class will have an orange color and the font size will be 16px */
+.css-class p
+{
+    font-size: 16px;
+    color: orange;
+}
+
+/* all of the li tags w/n 'css-class' class will have a blue color */
+.css-class li
+{
+    color: blue;
+}

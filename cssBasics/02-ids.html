@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./02-ids.css">
+    <title>IDs</title>
+</head>
+<body>
+    <!-- ID => used to identify a specific element -->
+    <!-- there can only be one id per element -->
+    <!-- IDs have more specificity than classes. 
+    Any changes made on an id in css will 'win' if 
+    it's conflicting with any changes made by a class 
+-->
+
+    <h1>css id</h1>
+    <p>an ID is a unique identifier</p>
+    <div>
+        <h3>id notes</h3>
+        <ul>
+            <li> in css an id starts with an octothorpe (pound, hashtag, number, etc) </li>
+            <li>example uses for id: targetting a specific header or an about section</li>
+            <li>each id should only be one per page</li>
+            <br>
+            <em>this is important with javascript later on as well</em>
+            <li>use for one-off styling</li></h2>
+        </ul>
+    </div>
+    <h1>IDs vs Classes</h1>
+    <h2>IDs</h2>
+    <p id="number-one">this id will be linked in the css page by an '#'</p>
+
+    <p id="number-one number-two">you cant have two IDs in one element (this is wrong).
+        Neither will be applied</p>
+        <p class="first-class">elements can have any number of classes</p>
+        <p class="first-class second-class">this element hs two classes</p>
+
+        <!-- p#number-one.first-class -->
+        <p id="number-one" class="first-class">you can use an id twice, but you shouldnt</p>
+
+</body>
+</html>

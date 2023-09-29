@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./04-borders.css">
+    <title>Borders</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>borders</h1>
+        <!-- p#title-p -->
+        <p id="title-p">the border property allows you to specify the style, width and color of an elements border</p>
+    </div>
+    <!-- div.border-style>ul>li*10 -->
+    <div class="border-style">
+        <ul>
+            <li><strong>dotted:</strong>dotted border</li>
+            <li><strong>dashed:</strong>dashed border</li>
+            <li><strong>solid</strong>solid border</li>
+            <li><strong>double</strong>double border</li>
+            <li><strong>groove</strong>3d grooved border, depends on border-color value</li>
+            <li><strong>ridge:</strong>ed ridged border, depends on border-color value</li>
+            <li><strong>inset</strong>3d inset border, depends on border-color value</li>
+            <li><strong>none:</strong>no border</li>
+            <li><strong>hidden</strong>hidden border</li>
+            <li><strong>mixed</strong>you can set a different border style for the top, bottom, left, right</li>
+        </ul>
+    </div>
+
+    <!-- div.border-width>h3+h4+p+p#four-widths -->
+        <div class="border-width">
+            <h3>border width</h3>
+            <h4>very important: border-width will not work unless you have 'border-style' set</h4>
+            <p>
+                border-width can be set to a specific size (px, em, etc) or you can use a preset setting:
+                thin, med, thick.
+                the border-width property can also take up four values:
+                top, right, bottom, left
+            </p>
+            <p id="four-widths">here is an example of border-width being set to more than one value</p>
+        </div>
+        <div class="border-color">
+            <h3>border color</h3>
+            <h4>very important: border-color will not work unless you have 'border-style' set</h4>
+            <p>border-color can be set in the following ways:
+                <!-- ul>li*4>strong -->
+                <ul>
+                    <li><strong>name:</strong>specify color, such as blue</li>
+                    <li><strong>hex:</strong>specifies hex value such as '#eee'</li>
+                    <li><strong>rgb:</strong>specifies rgb value, like 'rgb(100,100,100)'</li>
+                    <li><strong>transparent:</strong>this is the 'alpha' channel</li>
+                </ul>
+
+            </p>
+        </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./08-positions.css">
+    <title>Positions</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="nav" style="text-align: center;">i am in the fixed position</div>
+        <div class="positioning">
+            <h1>position</h1>
+            <p>the position property specifies the type of positioning method used for an element</p>
+            <p>the four position values are:</p>
+            <ul>
+                <li><strong>fixed</strong>this will pin something to a spot and it will stay there as the user scrolls
+                    (ex: nav bars)</li>
+                <li><strong>static</strong>this is the default setting. not affected by top, bottom, right, left
+                    properties</li>
+                <li><strong>relative</strong>this doesnt take the element out of normal document flow.
+                    still appears w/n its space/div/container, but allows it to be offset a bit from top, bottom, left,
+                    right.
+                    these properties will move it away from its normal position. other content will not be adjusted to
+                    fill any gap left by the element</li>
+                <li><strong>absolute</strong>takes an element out of document flow. if a parent element is set to
+                    relative,
+                    the child is absolute, the child elements new (0,0) cordinate will be the upper left corner</li>
+                <p>the <strong>z-index</strong> allows you to override the stacking of elements in a page.
+                    the default value is 0. you can set this value either positive or negative. positive=front,
+                    negative=behind.
+                </p>
+            </ul>
+        </div>
+    </div>
+    <div class="lotsoftext">
+        <h2>here's text to let you scroll and see a div with a fixed position</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quae, sequi quasi ipsum provident
+            excepturi ea error possimus a eius fugiat numquam temporibus! Excepturi corporis inventore laudantium
+            molestias eveniet ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto suscipit explicabo
+            distinctio, quod, voluptatibus enim est ratione nemo cum repellendus repudiandae neque praesentium delectus
+            quos qui. Impedit perferendis dignissimos rem.F Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Corporis inventore perspiciatis illum corrupti. Ex, nemo ad. Iure, tenetur officiis! Aliquid possimus et
+            odio laboriosam consequuntur, officia incidunt distinctio totam fugit? Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Assumenda, voluptatibus quasi soluta officiis odio nulla provident facilis
+            similique illo, et ipsam tempore voluptatum iste corporis porro voluptate molestiae reprehenderit
+            blanditiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, excepturi numquam veritatis
+            corrupti cupiditate, nobis beatae quo dolores praesentium eos quisquam minus ullam dignissimos ipsam ut
+            error suscipit eum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sunt natus, facilis veritatis inventore
+            reiciendis, distinctio voluptas provident odit eius incidunt fugit repudiandae modi obcaecati nihil numquam!
+            Officiis, dignissimos illum.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit laudantium alias blanditiis! Deleniti, saepe
+            sit dolorem odio enim doloribus sunt odit exercitationem explicabo eius! Dolores exercitationem libero culpa
+            maxime et.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora odio quis error excepturi? Ad provident
+            dolor velit, laborum quis dolorem doloremque fuga explicabo neque nam. Cupiditate numquam nulla odio nam?
+        </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam nisi minus culpa provident odit illo
+            dignissimos? Tenetur doloremque non sapiente consectetur soluta quos consequatur, tempore, fuga id
+            asperiores ipsa iusto.</p>
+    </div>
+</body>
+
+</html>

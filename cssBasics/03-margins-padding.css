@@ -1,0 +1,58 @@
+.title{
+    text-align: center;
+}
+
+.container{
+    border: 2px solid blue;
+    margin-top: 50px;
+    margin-right: 250px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    padding: 20px 20px 20px 20px;
+}
+
+p{
+    /* we can also modify the height and width of the box model */
+    height: 40px;
+    background-color: blue;
+    color: antiquewhite;
+
+/*     
+    border-width: 5px
+    border-style: solid
+    border-color: pink
+*/
+border: 5px solid pink;
+}
+
+/* we can apply the same style to different selectors using a comma */
+#margin-experiment-1,#margin-experiment-2{
+    /* if all margin values are the same then just asign these values */
+    margin: 0;
+}
+
+.margin-experiment-3{
+    border: 2px solid red;
+    margin: 5px 10px 20px 0;
+    padding: 10px;
+}
+
+.padded-container{
+    border: 2px solid red;
+    margin: 50px;
+    padding: 20px 20px 20px 40px;
+}
+
+#padding-experiment-1{
+    border: 8px solid yellow;
+    margin: 50px;
+    padding: 20px;
+}
+
+#padding-experiment-2{
+    /* add whatever you want */
+    background-color: aqua;
+    color: black;
+    height: 60px;
+    padding: 50px;
+}

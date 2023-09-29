@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./06-fonts.css">
+    <title>Fonts</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>font</h1>
+        <p>in css, there are two types of font family names</p>
+        <!-- ul>li*2>strong -->
+        <ul>
+            <li><strong>generic family</strong>a group of font families with a similar look (ex: serif)</li>
+            <li><strong>font family</strong>a specific font family (ex: times new romas, arial, etc)</li>
+        </ul>
+        <p>
+            the font family property should hold several font names as a fallback
+            in case the browser doesnt know/support the font you first picked
+        </p>
+        <p>
+            always start with the font you want, and end with a generic family
+        </p>
+        <p>
+            font families that are more than one word must be held inside "quotation marks" (ex: "times new roman")
+        </p>
+        <hr>
+
+        <h2>css font properties</h2>
+        <dl>
+            <dt>font</dt>
+            <dd>sets all of the font properties in one declaration</dd>
+            <dt>font family</dt>    
+            <dd id="family">specifies the font family for the text</dd>
+            <dt>font size</dt>
+            <!-- dd#size -->
+            <dd id="size">specifies the font size of the text</dd>
+            <dt>font weight</dt>
+            <dd id="weight">specifies the font weight</dd>
+        </dl>
+    </div>
+</body>
+</html>
