@@ -1,5 +1,6 @@
 .wrapper{
     margin: 5px;
+    color: darksalmon;
 }
 
 .nav{
@@ -16,7 +17,7 @@
     /* 150vh is basically 150% of the window height */
     height: 150vh;
     width: 75%;
-    background-color: cadetblue;
+    background-color: red;
 }
 
 .positioning{
@@ -26,5 +27,11 @@
 
 .positioning h1{
     text-align: center;
+    color: green;
+}
+
+h3{
     color: aqua;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
 }

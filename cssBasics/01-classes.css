@@ -5,7 +5,7 @@
 /* ctrl+/ = toggle comment(s) */
 /* everything w/n the body should have a yellow background */
 body{
-    background-color: yellow;
+    background-color: red;
 }
 
 /* everything in the 'css-class' class will have a light pink background */

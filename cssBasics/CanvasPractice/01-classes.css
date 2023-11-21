@@ -1,0 +1,29 @@
+/* rule set #1: everything w/n the body tag will have a yellow background */
+body{
+    background-color: yellow;
+}
+
+/* rule #2 set: everything w/n a css-class class will have a light grey background */
+.css-class{
+    background-color: lightgray;
+}
+
+/* rule #3 set: all h1 tags w/n the css-class class will have a font size of  18px */
+.css-class h1{
+    font-size: 18px;
+}
+
+/* rule #4 set: all of the p tags w/n a css-class class will have blue font */
+.css-class li{
+    color: navy;
+}
+
+.css-class p{
+    font-size: 15px;
+    color: green;
+}
+
+.name{
+    font-size: 48px;
+    color: darkmagenta;
+}
